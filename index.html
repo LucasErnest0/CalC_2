@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="meu.css">
+		<style>
+			body{
+				background-color: black;
+			}
+			input, button{
+				margin:5px;
+				
+			}
+			div{
+				border-style:dotted;
+				border-color: rgb(231, 231, 231);
+				padding: 10px;
+				background-color:rgba(41, 41, 41, 0.589) ; 
+			}
+		</style>
+
+		
+	</head>
+	
+	<body>
+
+		<div class="w3-display-middle">
+			<input id="n1" type="number" value="" placeholder="Altura"> <br>
+			<input id="n2" type="number" value="" placeholder="Peso"> <br><br>
+			<button onclick="somar()">-=-</button>
+			<button onclick="dividir()">IMC</button>
+			<button onclick="multiplicar()">-=-</button>
+			<br><br>
+				
+			<input type="number" id="n3" placeholder="Resultado" readonly> <br><br>
+			<input type="text" id="n4" placeholder="Obs:" readonly>
+
+		</div>
+			
+		<script src="meu.js"></script>
+	</body>
+</html>
